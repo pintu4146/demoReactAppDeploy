@@ -13,9 +13,8 @@ function App() {
     <div className="App">
    <h1>hi lets begin</h1>
    <ExpenseItem 
-   title={expenses[0].title}
-   am={expenses[0].amount}
-   date={expenses[0].date}
+   ex={expenses}
+   
    
    />
       {/* <ExpenseItem />
